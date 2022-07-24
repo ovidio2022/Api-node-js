@@ -1,0 +1,29 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "Titulo":"Los perseverantes",
+    "Autor":"Ovidio Velasquez",
+    "Edicion": 4
+
+}
+
+###
+DELETE http://localhost:9000/api/1 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "Titulo":"Los perseverantes para siempre",
+    "Autor":"Ovidio Gutierrez",
+    "Edicion": 20
+
+}
