@@ -23,6 +23,8 @@ app.get('/', (req, res)=>{
 })
 app.use('/api', routes)
 
+app.use('/api2', routes)
+
 //server running-------------------------------------------------
 app.listen(app.get('port'), ()=>{
 console.log('server running on port', app.get('port'))
